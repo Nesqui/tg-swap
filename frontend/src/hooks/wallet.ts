@@ -12,6 +12,7 @@ export const ACCOUNT_CHANGE_EVENT = Symbol('ACCOUNT_CHANGE_EVENT')
 const noticeTimeout = 5000
 
 export function initWallet() {
+  
   const { connection } = useConnectionStore()
   const { emit } = useEmit().emitter
   const { wallet } = useWallet()

@@ -8,6 +8,11 @@ export interface ExchangeForm {
   wallet?: string
 }
 
+export interface StakeForm {
+  stakeToken: number
+  stakeCurrency: number
+}
+
 export interface ExchangeProperties {
   sendToken: number
   sendCurrency: string
